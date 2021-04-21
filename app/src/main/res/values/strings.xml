@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">BookShare</string>
+    <string name="prompt_email">Email</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="prompt_confirmPassword">Confirm Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="correoElectronico">Correo electrónico</string>
+    <string name="login">Login</string>
+    <string name="registro">Registro</string>
+    <string name="ConfirmarRegistro">Regitrarme ahora</string>
+    <string name="confirmarRegistro">Confirmar contraseña</string>
+    <string name="nombreUsuario">Nombre Usuario</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="fechaDeNacimiento">Fecha de nacimiento</string>
+    <string name="pais">Pais</string>
+    <string name="guardarDatos">Guardar datos</string>
+</resources>
