@@ -51,7 +51,7 @@
 
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/fotoDeperfilUsuario"
         android:layout_width="125dp"
         android:layout_height="150dp"
         android:layout_marginTop="36dp"
