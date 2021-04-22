@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <item name="login" type="id" />
+    <item name="nombreDelLibroPerfil" type="id" />
+    <item name="nombreDelAutorextView" type="id" />
+    <item name="nombreDelAutorTextView" type="id" />
+    <item name="fechaDePublicacionLibroTextView" type="id" />
+    <item name="editorialTextView" type="id" />
+    <item name="idiomaTextView" type="id" />
+    <item name="autorTextView2" type="id" />
+    <item name="nombreDelAutorEditText" type="id" />
+    <item name="fechaDePublicacionEditText" type="id" />
+    <item name="editorialEditText" type="id" />
+    <item name="idiomaEditText" type="id" />
+    <item name="autorEditText" type="id" />
+    <item name="autorTextView" type="id" />
 </resources>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="MissingDefaultResource">
+
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="458dp"
+        android:layout_height="62dp"
+        android:background="@color/ColorApp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tituloNombreDelLibro"
+        android:layout_width="189dp"
+        android:layout_height="46dp"
+        android:layout_marginEnd="84dp"
+
+        android:layout_marginRight="84dp"
+        android:gravity="center_horizontal"
+        android:text="Nombre del libro"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="65px"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toStartOf="@+id/imagenMenu"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toTopOf="@+id/view"
+        app:layout_constraintVertical_bias="0.875" />
+
+    <ImageView
+        android:id="@+id/imagenMenu"
+        android:layout_width="43dp"
+        android:layout_height="38dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tituloNombreDelLibro"
+        app:layout_constraintVertical_bias="0.444"
+        app:srcCompat="@drawable/botonmenu"
+        app:tint="@color/white" />
+
+
+    <ImageView
+        android:id="@+id/fotoDeperfilUsuario"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="36dp"
+        app:layout_constraintBottom_toTopOf="@+id/view2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.965"
+        app:layout_constraintStart_toEndOf="@+id/nombreDelLibroPerfil"
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        app:layout_constraintVertical_bias="0.75"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="433dp"
+        android:layout_height="6dp"
+        android:layout_marginTop="212dp"
+        android:background="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nombreDelLibroPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="124dp"
+        android:layout_marginLeft="124dp"
+        android:text="Nombre del libro"
+        android:textColor="@color/black"
+        android:textSize="50px"
+        app:layout_constraintBottom_toTopOf="@+id/view2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/nombreDelAutorTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre del autor"
+        android:textColor="@color/black"
+        android:textSize="50px"
+        app:layout_constraintBottom_toTopOf="@+id/nombreDelAutorEditText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2"
+        app:layout_constraintVertical_bias="0.666"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/fechaDePublicacionLibroTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Fecha de publicacion"
+        android:textColor="@color/black"
+        android:textSize="50px"
+        app:layout_constraintBottom_toTopOf="@+id/fechaDePublicacionEditText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.129"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/nombreDelAutorEditText"
+        android:layout_width="170dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="8dp"
+        android:hint="@string/nombreDelAutor"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="true"
+        app:layout_constraintBottom_toTopOf="@+id/fechaDePublicacionLibroTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.232"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/fechaDePublicacionEditText"
+        android:layout_width="194dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="4dp"
+        android:hint="@string/fechaDePublicacion"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="true"
+        app:layout_constraintBottom_toTopOf="@+id/editorialTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.258"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/idiomaEditText"
+        android:layout_width="193dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="8dp"
+        android:hint="@string/idioma"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="true"
+        app:layout_constraintBottom_toTopOf="@+id/autorTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.256"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/idiomaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Idioma"
+        android:textColor="@color/black"
+        android:textSize="50px"
+        app:layout_constraintBottom_toTopOf="@+id/idiomaEditText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.113"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/autorEditText"
+        android:layout_width="193dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="68dp"
+        android:hint="@string/autor"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.256"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/autorTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Autor"
+        android:textColor="@color/black"
+        android:textSize="50px"
+        app:layout_constraintBottom_toTopOf="@+id/autorEditText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/editorialTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Editorial"
+        android:textColor="@color/black"
+        android:textSize="50px"
+        app:layout_constraintBottom_toTopOf="@+id/editorialEditText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editorialEditText"
+        android:layout_width="193dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="8dp"
+        android:hint="@string/editorial"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="true"
+        app:layout_constraintBottom_toTopOf="@+id/idiomaTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.288"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

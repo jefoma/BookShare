@@ -1,0 +1,2 @@
+com/example/bookshare/BuildConfig.java
+ com.example.bookshare.BuildConfig

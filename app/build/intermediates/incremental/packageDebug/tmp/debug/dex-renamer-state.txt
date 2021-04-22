@@ -1,0 +1,4 @@
+#Thu Apr 22 17:28:23 CEST 2021
+base.0=C\:\\Users\\Jefoma\\Desktop\\BookShare\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

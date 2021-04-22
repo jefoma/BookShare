@@ -12,8 +12,13 @@
     <string name="confirmarRegistro">Confirmar contraseña</string>
     <string name="nombreUsuario">Nombre Usuario</string>
     <string name="nombre">Nombre</string>
+    <string name="nombreDelAutor">Nombre del autor</string>
     <string name="apellidos">Apellidos</string>
     <string name="fechaDeNacimiento">Fecha de nacimiento</string>
+    <string name="fechaDePublicacion">Fecha de publicacion</string>
     <string name="pais">Pais</string>
+    <string name="idioma">Idioma</string>
     <string name="guardarDatos">Guardar datos</string>
+    <string name="editorial">Editorial</string>
+    <string name="autor">Autor</string>
 </resources>
