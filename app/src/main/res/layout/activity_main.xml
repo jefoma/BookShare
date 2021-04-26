@@ -23,7 +23,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/Contraseña"
+        android:id="@+id/contraseña"
         android:layout_width="174dp"
         android:layout_height="38dp"
         android:layout_marginStart="24dp"

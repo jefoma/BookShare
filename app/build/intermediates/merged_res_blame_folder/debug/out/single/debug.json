@@ -1,130 +1,130 @@
 [
     {
-        "merged": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_chats.xml.flat",
-        "source": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\src\\main\\res\\layout\\activity_chats.xml"
+        "merged": "D:\\DAM\\M13\\BookShare-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\DAM\\M13\\BookShare-master\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "D:\\DAM\\M13\\BookShare-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\DAM\\M13\\BookShare-master\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "D:\\DAM\\M13\\BookShare-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "D:\\DAM\\M13\\BookShare-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "D:\\DAM\\M13\\BookShare-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_contacto.png.flat",
+        "source": "D:\\DAM\\M13\\BookShare-master\\app\\src\\main\\res\\drawable-v24\\contacto.png"
     },
     {
-        "merged": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+        "merged": "D:\\DAM\\M13\\BookShare-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\DAM\\M13\\BookShare-master\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "D:\\DAM\\M13\\BookShare-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\DAM\\M13\\BookShare-master\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
+        "merged": "D:\\DAM\\M13\\BookShare-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\DAM\\M13\\BookShare-master\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "D:\\DAM\\M13\\BookShare-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_perfil_libro.xml.flat",
+        "source": "D:\\DAM\\M13\\BookShare-master\\app\\src\\main\\res\\layout\\activity_perfil_libro.xml"
     },
     {
-        "merged": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_catalogo.xml.flat",
-        "source": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\src\\main\\res\\layout\\activity_catalogo.xml"
+        "merged": "D:\\DAM\\M13\\BookShare-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "D:\\DAM\\M13\\BookShare-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+        "merged": "D:\\DAM\\M13\\BookShare-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\DAM\\M13\\BookShare-master\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "D:\\DAM\\M13\\BookShare-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_botonmenu.png.flat",
+        "source": "D:\\DAM\\M13\\BookShare-master\\app\\src\\main\\res\\drawable\\botonmenu.png"
     },
     {
-        "merged": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "D:\\DAM\\M13\\BookShare-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_perfil.xml.flat",
+        "source": "D:\\DAM\\M13\\BookShare-master\\app\\src\\main\\res\\layout\\activity_perfil.xml"
     },
     {
-        "merged": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_contacto.png.flat",
-        "source": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\src\\main\\res\\drawable-v24\\contacto.png"
+        "merged": "D:\\DAM\\M13\\BookShare-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo.png.flat",
+        "source": "D:\\DAM\\M13\\BookShare-master\\app\\src\\main\\res\\drawable\\logo.png"
     },
     {
-        "merged": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "D:\\DAM\\M13\\BookShare-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_registro.xml.flat",
+        "source": "D:\\DAM\\M13\\BookShare-master\\app\\src\\main\\res\\layout\\activity_registro.xml"
     },
     {
-        "merged": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
+        "merged": "D:\\DAM\\M13\\BookShare-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_chat.xml.flat",
+        "source": "D:\\DAM\\M13\\BookShare-master\\app\\src\\main\\res\\layout\\activity_chat.xml"
     },
     {
-        "merged": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "D:\\DAM\\M13\\BookShare-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\DAM\\M13\\BookShare-master\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "D:\\DAM\\M13\\BookShare-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\DAM\\M13\\BookShare-master\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "D:\\DAM\\M13\\BookShare-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "D:\\DAM\\M13\\BookShare-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_botonmenu.png.flat",
-        "source": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\src\\main\\res\\drawable\\botonmenu.png"
+        "merged": "D:\\DAM\\M13\\BookShare-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "D:\\DAM\\M13\\BookShare-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_perfil.xml.flat",
-        "source": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\src\\main\\res\\layout\\activity_perfil.xml"
+        "merged": "D:\\DAM\\M13\\BookShare-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "D:\\DAM\\M13\\BookShare-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "D:\\DAM\\M13\\BookShare-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_catalogo.xml.flat",
+        "source": "D:\\DAM\\M13\\BookShare-master\\app\\src\\main\\res\\layout\\activity_catalogo.xml"
     },
     {
-        "merged": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_chat.xml.flat",
-        "source": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\src\\main\\res\\layout\\activity_chat.xml"
+        "merged": "D:\\DAM\\M13\\BookShare-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\DAM\\M13\\BookShare-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_botonenter.png.flat",
-        "source": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\src\\main\\res\\drawable\\botonenter.png"
+        "merged": "D:\\DAM\\M13\\BookShare-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "D:\\DAM\\M13\\BookShare-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_flecha.png.flat",
-        "source": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\src\\main\\res\\drawable\\flecha.png"
+        "merged": "D:\\DAM\\M13\\BookShare-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\DAM\\M13\\BookShare-master\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_perfil_libro.xml.flat",
-        "source": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\src\\main\\res\\layout\\activity_perfil_libro.xml"
+        "merged": "D:\\DAM\\M13\\BookShare-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_chats.xml.flat",
+        "source": "D:\\DAM\\M13\\BookShare-master\\app\\src\\main\\res\\layout\\activity_chats.xml"
     },
     {
-        "merged": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo.png.flat",
-        "source": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\src\\main\\res\\drawable\\logo.png"
+        "merged": "D:\\DAM\\M13\\BookShare-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\DAM\\M13\\BookShare-master\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "D:\\DAM\\M13\\BookShare-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_botonenter.png.flat",
+        "source": "D:\\DAM\\M13\\BookShare-master\\app\\src\\main\\res\\drawable\\botonenter.png"
     },
     {
-        "merged": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+        "merged": "D:\\DAM\\M13\\BookShare-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "D:\\DAM\\M13\\BookShare-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+        "merged": "D:\\DAM\\M13\\BookShare-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\DAM\\M13\\BookShare-master\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+        "merged": "D:\\DAM\\M13\\BookShare-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\DAM\\M13\\BookShare-master\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "D:\\DAM\\M13\\BookShare-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_flecha.png.flat",
+        "source": "D:\\DAM\\M13\\BookShare-master\\app\\src\\main\\res\\drawable\\flecha.png"
     },
     {
-        "merged": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_registro.xml.flat",
-        "source": "C:\\Users\\Jefoma\\Desktop\\BookShare\\app\\src\\main\\res\\layout\\activity_registro.xml"
+        "merged": "D:\\DAM\\M13\\BookShare-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\DAM\\M13\\BookShare-master\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     }
 ]
