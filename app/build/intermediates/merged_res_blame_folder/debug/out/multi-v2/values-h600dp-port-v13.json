@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\DAM\\M13\\BookShare-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h600dp-port-v13\\values-h600dp-port-v13.xml",
+            "outputFile": "C:\\Users\\pefel\\OneDrive\\Documents\\GitHub\\BookShare\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h600dp-port-v13\\values-h600dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\pefel\\.gradle\\caches\\transforms-2\\files-2.1\\faecea335808a370d43ddf9ed7c5a1e9\\material-1.3.0\\res\\values-h600dp-port-v13\\values-h600dp-port-v13.xml",
+                    "source": "C:\\Users\\pefel\\.gradle\\caches\\transforms-2\\files-2.1\\293d13a4407b1aeddb34482b8213a7d0\\material-1.3.0\\res\\values-h600dp-port-v13\\values-h600dp-port-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
