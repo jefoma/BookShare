@@ -5,6 +5,7 @@
     <string name="prompt_confirmPassword">Confirm Password</string>
     <string name="action_sign_in">Sign in or register</string>
     <string name="action_sign_in_short">Sign in</string>
+    <string name="iniciar_sesion_google">Iniciar Sesión con Google</string>
     <string name="correoElectronico">Correo electrónico</string>
     <string name="login">Login</string>
     <string name="registro">Registro</string>
