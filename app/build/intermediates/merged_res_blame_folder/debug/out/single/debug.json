@@ -108,6 +108,10 @@
         "source": "C:\\Users\\pefel\\OneDrive\\Documents\\GitHub\\BookShare\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
+        "merged": "C:\\Users\\pefel\\OneDrive\\Documents\\GitHub\\BookShare\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_main.xml.flat",
+        "source": "C:\\Users\\pefel\\OneDrive\\Documents\\GitHub\\BookShare\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
         "merged": "C:\\Users\\pefel\\OneDrive\\Documents\\GitHub\\BookShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
         "source": "C:\\Users\\pefel\\OneDrive\\Documents\\GitHub\\BookShare\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
     },

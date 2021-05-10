@@ -17,6 +17,7 @@ import android.widget.EditText
 import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.FirebaseUserMetadata
 
 
 class MainActivity : AppCompatActivity(),  View.OnClickListener {
@@ -55,7 +56,10 @@ class MainActivity : AppCompatActivity(),  View.OnClickListener {
                     FirebaseAuth.getInstance().signInWithEmailAndPassword(correoElectronico!!.text.toString(),
                             contraseña!!.text.toString()).addOnCompleteListener{
                         if (it.isSuccessful){
-                            val intent: Intent = Intent(this, Perfil::class.java)
+                            val user = FirebaseAuth.getInstance().currentUser
+                            val intent: Intent = Intent(this, Perfil::class.java).apply {
+                                intent.putExtra("Usuario", user)
+                            }
                             startActivity(intent)
 
                         }else{

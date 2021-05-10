@@ -7,61 +7,15 @@
     tools:context=".MainActivity">
 
 
-    <View
-        android:id="@+id/view"
-        android:layout_width="458dp"
-        android:layout_height="62dp"
-        android:background="@color/ColorApp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/tituloPerfil"
-        android:layout_width="121dp"
-        android:layout_height="47dp"
-        android:layout_marginEnd="84dp"
-
-        android:layout_marginRight="84dp"
-        android:gravity="center_horizontal"
-        android:text="Perfil"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="85px"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/view"
-        app:layout_constraintEnd_toStartOf="@+id/imagenMenu"
-        app:layout_constraintHorizontal_bias="0.988"
-        app:layout_constraintStart_toStartOf="@+id/view"
-        app:layout_constraintTop_toTopOf="@+id/view"
-        app:layout_constraintVertical_bias="0.666" />
-
-    <ImageView
-        android:id="@+id/imagenMenu"
-        android:layout_width="43dp"
-        android:layout_height="38dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        app:layout_constraintBottom_toBottomOf="@+id/textView2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/tituloPerfil"
-        app:layout_constraintVertical_bias="0.444"
-        app:srcCompat="@drawable/botonmenu"
-        app:tint="@color/white" />
-
-
     <ImageView
         android:id="@+id/fotoDeperfilUsuario"
         android:layout_width="125dp"
         android:layout_height="150dp"
-        android:layout_marginTop="36dp"
         android:layout_marginBottom="36dp"
         app:layout_constraintBottom_toTopOf="@+id/view2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.772"
         app:layout_constraintStart_toEndOf="@+id/nombreDeUsuarioPerfl"
-        app:layout_constraintTop_toBottomOf="@+id/view"
-        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/contacto" />
 
     <View
@@ -81,14 +35,13 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="108dp"
         android:layout_marginLeft="108dp"
-        android:layout_marginTop="112dp"
         android:text="Nombre de Usuario"
         android:textColor="@color/black"
         android:textSize="50px"
         app:layout_constraintBottom_toTopOf="@+id/view2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.612"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -115,47 +68,47 @@
         android:hint="@string/apellidos"
         android:inputType="textPersonName"
         android:selectAllOnFocus="true"
-        app:layout_constraintBottom_toTopOf="@+id/fechaDeNacimientoTextView"
+        app:layout_constraintBottom_toTopOf="@+id/ciudadTextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.304"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/fechaDeNacimientoEditText"
+        android:id="@+id/ciudadEditText"
         android:layout_width="193dp"
         android:layout_height="38dp"
         android:layout_marginBottom="4dp"
-        android:hint="@string/fechaDeNacimiento"
+        android:hint="@string/ciudad"
         android:inputType="textPersonName"
         android:selectAllOnFocus="true"
-        app:layout_constraintBottom_toTopOf="@+id/paisTextView"
+        app:layout_constraintBottom_toTopOf="@+id/codigoPostalTextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.307"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/fechaDeNacimientoTextView"
+        android:id="@+id/ciudadTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:text="Fecha de nacimiento"
+        android:layout_marginBottom="20dp"
+        android:text="Ciudad"
         android:textColor="@color/black"
         android:textSize="50px"
-        app:layout_constraintBottom_toTopOf="@+id/fechaDeNacimientoEditText"
+        app:layout_constraintBottom_toTopOf="@+id/ciudadEditText"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.17"
+        app:layout_constraintHorizontal_bias="0.113"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/paisTextView"
+        android:id="@+id/codigoPostalTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="4dp"
-        android:text="Pais"
+        android:text="Codigo postal"
         android:textColor="@color/black"
         android:textSize="50px"
-        app:layout_constraintBottom_toTopOf="@+id/paisEditText"
+        app:layout_constraintBottom_toTopOf="@+id/codigoPostalEditText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.106"
         app:layout_constraintStart_toStartOf="parent"
@@ -176,11 +129,11 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <EditText
-        android:id="@+id/paisEditText"
+        android:id="@+id/codigoPostalEditText"
         android:layout_width="193dp"
         android:layout_height="38dp"
         android:layout_marginBottom="20dp"
-        android:hint="@string/pais"
+        android:hint="@string/codigoPostal"
         android:inputType="textPersonName"
         android:selectAllOnFocus="true"
         app:layout_constraintBottom_toTopOf="@+id/guardarDatos"
