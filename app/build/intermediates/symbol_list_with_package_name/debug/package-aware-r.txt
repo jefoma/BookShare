@@ -1598,9 +1598,6 @@ id idiomaTextView
 id ifRoom
 id image
 id imagenDelContacto
-id imagenLibro1
-id imagenLibro3
-id imagenLibro4
 id imagenMenu
 id info
 id invisible
@@ -1613,6 +1610,7 @@ id light
 id line1
 id line3
 id listMode
+id listView
 id list_item
 id login
 id logo
@@ -1659,9 +1657,6 @@ id nombreDeUsuarioPerfl
 id nombreDelAutorEditText
 id nombreDelAutorTextView
 id nombreDelAutorextView
-id nombreDelLibro1
-id nombreDelLibro2
-id nombreDelLibro3
 id nombreDelLibroPerfil
 id nombreEditText
 id nombreTextView
@@ -1754,6 +1749,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textView2
+id textViewResult
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter
@@ -1783,7 +1779,6 @@ id view
 id view2
 id view3
 id view4
-id view5
 id view_offset_helper
 id visible
 id wide

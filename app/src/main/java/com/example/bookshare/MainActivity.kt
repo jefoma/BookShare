@@ -1,13 +1,5 @@
 package com.example.bookshare
 
-/*import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
-import android.view.View
-import android.widget.Button
-import android.widget.EditText
-import androidx.appcompat.app.AlertDialog
-import com.google.firebase.auth.FirebaseAuth*/
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -57,7 +49,7 @@ class MainActivity : AppCompatActivity(),  View.OnClickListener {
                             contraseña!!.text.toString()).addOnCompleteListener{
                         if (it.isSuccessful){
                             val user = FirebaseAuth.getInstance().currentUser
-                            val intent: Intent = Intent(this, Perfil::class.java).apply {
+                            val intent: Intent = Intent(this, Catalogo::class.java).apply {
                                 intent.putExtra("Usuario", user)
                             }
                             startActivity(intent)
