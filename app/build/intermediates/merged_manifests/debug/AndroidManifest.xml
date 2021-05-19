@@ -18,7 +18,7 @@
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/logo"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
@@ -30,6 +30,8 @@
         <activity android:name="com.example.bookshare.Chats" />
         <activity android:name="com.example.bookshare.Perfil" />
         <activity android:name="com.example.bookshare.PerfilLibro" />
+        <activity android:name="com.example.bookshare.AgregarLibro" />
+        <activity android:name="com.example.bookshare.EditarLibro" />
         <activity android:name="com.example.bookshare.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

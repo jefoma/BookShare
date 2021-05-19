@@ -6,9 +6,7 @@ import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
-import android.widget.Button
-import android.widget.EditText
-import android.widget.TextView
+import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
@@ -23,7 +21,11 @@ class Perfil : AppCompatActivity(), View.OnClickListener {
     private var codigoPostalEditText: EditText? = null
     private var guardarDatos: Button? = null
     private var database = FirebaseFirestore.getInstance()
+    private var imagenBook: ImageView? = null
+    private var imagenPerfil: ImageView? = null
     var count: TextView? = null
+    private var imagenChats: ImageView? = null
+    private var imagenCerrarSession: ImageView? = null
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -32,28 +34,28 @@ class Perfil : AppCompatActivity(), View.OnClickListener {
 
         guardarDatos = findViewById<Button>(R.id.guardarDatos);
         guardarDatos!!.setOnClickListener(this)
+        imagenBook = findViewById<ImageView>(R.id.imagenBook)
+        imagenPerfil = findViewById<ImageView>(R.id.imagenPerfil)
+        imagenChats = findViewById<ImageView>(R.id.imagenChats)
+        imagenCerrarSession = findViewById<ImageView>(R.id.imagenCerrarSession)
+
+        nombreDeUsuarioPerfl = findViewById<TextView>(R.id.nombreDeUsuarioPerfl)
+        nombreEditText = findViewById<EditText>(R.id.nombreEditText)
+        apellidosEditText = findViewById<EditText>(R.id.apellidosEditText)
+        ciudadEditText = findViewById<EditText>(R.id.ciudadEditText)
+        codigoPostalEditText = findViewById<EditText>(R.id.codigoPostalEditText)
+
+        imagenBook!!.setOnClickListener(this)
+        imagenPerfil!!.setOnClickListener(this)
+        imagenChats!!.setOnClickListener(this)
+        imagenCerrarSession!!.setOnClickListener(this)
+
         cargaDatosBD()
 
     }
-    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        Log.d("HOLA1", "HOLASNDKJASDBH")
-        menuInflater.inflate(R.menu.menu_main, menu)
-        Log.d("HOLA2", "HOLASNDKJASDBH")
-        return true
-    }
 
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        Log.d("HOLA3", "HOLASNDKJASDBH")
-        when (item.itemId) {
-            R.id.about -> {
-                val intent: Intent = Intent(this, PerfilLibro::class.java)
-                startActivity(intent)
-            }
-        }
-        return super.onOptionsItemSelected(item)
-    }
 
-    fun cargaDatosBD(){
+    fun cargaDatosBD() {
         var user = FirebaseAuth.getInstance().currentUser
         var email = user?.email!!.toString()
         val usersRef = database.collection("users").document(email)
@@ -62,17 +64,13 @@ class Perfil : AppCompatActivity(), View.OnClickListener {
             if (document != null) {
                 val user2 = document.toObject(Usuario::class.java)
 
-                nombreDeUsuarioPerfl = findViewById<TextView>(R.id.nombreDeUsuarioPerfl);
-                nombreEditText = findViewById<EditText>(R.id.nombreEditText);
-                apellidosEditText = findViewById<EditText>(R.id.apellidosEditText);
-                ciudadEditText = findViewById<EditText>(R.id.ciudadEditText);
-                codigoPostalEditText = findViewById<EditText>(R.id.codigoPostalEditText);
-
                 nombreDeUsuarioPerfl?.setText(user2?.username)
                 nombreEditText?.setText(user2?.nombre)
                 apellidosEditText?.setText(user2?.apellido)
                 ciudadEditText?.setText(user2?.ciudad)
                 codigoPostalEditText?.setText(user2?.codigoPostal.toString())
+
+
 
             } else {
                 Log.d("Error", "No Existe")
@@ -80,7 +78,6 @@ class Perfil : AppCompatActivity(), View.OnClickListener {
             }
         }
     }
-
 
 
     override fun onClick(v: View?) {
@@ -93,8 +90,25 @@ class Perfil : AppCompatActivity(), View.OnClickListener {
                 usersRef.update("apellido", apellidosEditText!!.text.toString())
                 usersRef.update("ciudad", ciudadEditText!!.text.toString())
                 usersRef.update("codigoPostal", codigoPostalEditText!!.text.toString())
+                Toast.makeText(this, "Perfil actualizado", Toast.LENGTH_SHORT).show()
                 cargaDatosBD()
-
+            }
+            R.id.imagenBook -> {
+                val intent = Intent(this, Catalogo::class.java)
+                startActivity(intent)
+            }
+            R.id.imagenPerfil -> {
+                val intent = Intent(this, Perfil::class.java)
+                startActivity(intent)
+            }
+            R.id.imagenChats -> {
+                val intent = Intent(this, Chats::class.java)
+                startActivity(intent)
+            }
+            R.id.imagenCerrarSession -> {
+                FirebaseAuth.getInstance().signOut()
+                val intent = Intent(this, MainActivity::class.java)
+                startActivity(intent)
             }
         }
     }

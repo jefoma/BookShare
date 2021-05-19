@@ -1,20 +1,26 @@
 package com.example.bookshare
 
 class Libro {
-    var titulo: String? = null
-    var isbn: String? = null
-    var autor: String? = null
-    var sinopsis: String? = null
-    var idioma: String? = null
-    var editorial: String? = null
+    var Titulo: String? = null
+    var ISBN: String? = null
+    var Autor: String? = null
+    var Sinopsis: String? = null
+    var Idioma: String? = null
+    var Editorial: String? = null
+    var Ciudad: String? = null
+    var CP: String? = null
+    var Propietario: String? = null
 
-    constructor(titulo: String?, editorial: String?, isbn: String?, autor: String?, sinopsis: String?, idioma: String?) {
-        this.titulo = titulo
-        this.isbn = isbn
-        this.autor = autor
-        this.sinopsis = sinopsis
-        this.idioma = idioma
-        this.editorial = editorial
+    constructor(Titulo: String?, Editorial: String?, ISBN: String?, Autor: String?, Sinopsis: String?, Idioma: String?, Ciudad: String?, CP: String?, Propietario: String?) {
+        this.Titulo = Titulo
+        this.ISBN = ISBN
+        this.Autor = Autor
+        this.Sinopsis = Sinopsis
+        this.Idioma = Idioma
+        this.Editorial = Editorial
+        this.Ciudad = Ciudad
+        this.CP = CP
+        this.Propietario = Propietario
 
     }
 

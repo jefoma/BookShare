@@ -15,7 +15,6 @@ import com.google.firebase.auth.FirebaseUserMetadata
 class MainActivity : AppCompatActivity(),  View.OnClickListener {
 
     private var login: Button? = null
-    private var sing_up_google: Button? = null
     private var sing_up: Button? = null
     private var correoElectronico: EditText? = null
     private var contraseña: EditText? = null
@@ -27,14 +26,12 @@ class MainActivity : AppCompatActivity(),  View.OnClickListener {
 
         //Iniciamos los botenes y creamos sus listeners para crear acciones
         login = findViewById<Button>(R.id.login);
-        sing_up_google = findViewById<Button>(R.id.sing_up_google);
         sing_up = findViewById<Button>(R.id.sing_up);
         correoElectronico = findViewById<EditText>(R.id.correoElectronico);
         contraseña = findViewById<EditText>(R.id.contraseña);
 
 
         login!!.setOnClickListener(this)
-        sing_up_google!!.setOnClickListener(this)
         sing_up!!.setOnClickListener(this)
         correoElectronico!!.setOnClickListener(this)
         contraseña!!.setOnClickListener(this)
@@ -64,10 +61,6 @@ class MainActivity : AppCompatActivity(),  View.OnClickListener {
             }
             R.id.sing_up -> {
                 val intent: Intent = Intent(this, Registro::class.java)
-                startActivity(intent)
-            }
-            R.id.sing_up_google -> {
-                val intent: Intent = Intent(this, Perfil::class.java)
                 startActivity(intent)
             }
         }

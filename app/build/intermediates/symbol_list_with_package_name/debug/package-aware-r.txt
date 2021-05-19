@@ -1352,6 +1352,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable book
 drawable botonenter
 drawable botonmenu
 drawable btn_checkbox_checked_mtrl
@@ -1362,6 +1363,8 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable cerrar
+drawable chat
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -1405,6 +1408,8 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable logo
+drawable lupa
+drawable milibro
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
 drawable mtrl_ic_arrow_drop_down
@@ -1433,14 +1438,18 @@ drawable tooltip_frame_light
 id ALT
 id BOTTOM_END
 id BOTTOM_START
+id CPEditText
+id CPTextView
 id CTRL
 id FUNCTION
+id ISBNEditText
+id ISBNTextView
 id META
+id PropietarioTextView
 id SHIFT
 id SYM
 id TOP_END
 id TOP_START
-id about
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
 id accessibility_custom_action_1
@@ -1512,6 +1521,11 @@ id beginning
 id blocking
 id botonEnterChat
 id bottom
+id btnAgregaLibro
+id btnAgregaLibroCatalogo
+id btnEditarLibro
+id btnLupa
+id btnMisLibros
 id buttonPanel
 id cancel_button
 id center
@@ -1555,10 +1569,15 @@ id dialog_button
 id dimensions
 id direct
 id disableHome
+id divider
+id divider1
+id divider2
 id dropdown_menu
 id edit_query
 id editorialEditText
 id editorialTextView
+id emailEditText
+id emailTextView
 id end
 id enterAlways
 id enterAlwaysCollapsed
@@ -1597,8 +1616,11 @@ id idiomaEditText
 id idiomaTextView
 id ifRoom
 id image
+id imagenBook
+id imagenCerrarSession
+id imagenChats
 id imagenDelContacto
-id imagenMenu
+id imagenPerfil
 id info
 id invisible
 id italic
@@ -1612,6 +1634,7 @@ id line3
 id listMode
 id listView
 id list_item
+id localizacionTextView
 id login
 id logo
 id masked
@@ -1657,7 +1680,9 @@ id nombreDeUsuarioPerfl
 id nombreDelAutorEditText
 id nombreDelAutorTextView
 id nombreDelAutorextView
+id nombreDelLibroEditText
 id nombreDelLibroPerfil
+id nombreDellibrorEditText
 id nombreEditText
 id nombreTextView
 id nombreUsuario
@@ -1711,7 +1736,8 @@ id showCustom
 id showHome
 id showTitle
 id sing_up
-id sing_up_google
+id sinopsisEditText
+id sinopsisTextView
 id skipCollapsed
 id slide
 id smallLabel
@@ -1729,6 +1755,7 @@ id src_over
 id standard
 id start
 id stretch
+id subir_imagen
 id submenuarrow
 id submit_area
 id tabMode
@@ -1748,7 +1775,6 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
-id textView2
 id textViewResult
 id text_input_end_icon
 id text_input_start_icon
@@ -1760,8 +1786,6 @@ id title
 id titleDividerNoCustom
 id title_template
 id tituloCatalogo
-id tituloChat
-id tituloNombreDelLibro
 id top
 id topPanel
 id touch_outside
@@ -1846,9 +1870,11 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_agregar_libro
 layout activity_catalogo
 layout activity_chat
 layout activity_chats
+layout activity_editar_libro
 layout activity_main
 layout activity_perfil
 layout activity_perfil_libro
@@ -1919,7 +1945,6 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
-menu menu_main
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
@@ -1953,6 +1978,7 @@ string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string action_sign_in
 string action_sign_in_short
+string agregarLibro
 string apellidos
 string app_name
 string appbar_scrolling_view_behavior
@@ -1987,6 +2013,7 @@ string confirmarRegistro
 string contraseña
 string correoElectronico
 string default_web_client_id
+string editarLibro
 string editorial
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
@@ -2003,6 +2030,7 @@ string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string idioma
 string iniciar_sesion_google
+string isbn
 string login
 string mtrl_badge_numberless_content_description
 string mtrl_chip_close_icon_content_description
@@ -2040,6 +2068,7 @@ string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
 string nombre
 string nombreDelAutor
+string nombreLibro
 string nombreUsuario
 string password_toggle_content_description
 string path_password_eye
@@ -2053,6 +2082,7 @@ string prompt_confirmPassword
 string prompt_email
 string registro
 string search_menu_title
+string sinopsis
 string status_bar_notification_info_overflow
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
