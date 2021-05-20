@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\pefel\\OneDrive\\Documents\\GitHub\\BookShare-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pl\\values-pl.xml",
+            "outputFile": "C:\\Users\\pefel\\OneDrive\\Documents\\GitHub\\BookShare\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pl\\values-pl.xml",
             "map": [
                 {
                     "source": "C:\\Users\\pefel\\.gradle\\caches\\transforms-2\\files-2.1\\dbec17359393d6e4ce99e0d3034f237d\\jetified-play-services-base-17.1.0\\res\\values-pl\\values.xml",

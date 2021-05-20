@@ -118,8 +118,8 @@
 
     <EditText
         android:id="@+id/nombreDelLibroEditText"
-        android:layout_width="356dp"
-        android:layout_height="30dp"
+        android:layout_width="360dp"
+        android:layout_height="56dp"
         android:ems="10"
         android:hint="@string/nombreLibro"
         android:inputType="textPersonName"
@@ -139,13 +139,12 @@
         app:layout_constraintBottom_toTopOf="@+id/listView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view"
-        app:layout_constraintVertical_bias="0.236"
         app:srcCompat="@drawable/lupa" />
 
     <ListView
         android:id="@+id/listView"
-        android:layout_width="411dp"
-        android:layout_height="531dp"
+        android:layout_width="396dp"
+        android:layout_height="532dp"
         android:layout_marginBottom="80dp"
         android:background="@color/white"
         android:choiceMode="singleChoice"

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\pefel\\OneDrive\\Documents\\GitHub\\BookShare-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h480dp-land-v13\\values-h480dp-land-v13.xml",
+            "outputFile": "C:\\Users\\pefel\\OneDrive\\Documents\\GitHub\\BookShare\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h480dp-land-v13\\values-h480dp-land-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\pefel\\.gradle\\caches\\transforms-2\\files-2.1\\7725f249a9efb81ac54a2efc0c513288\\material-1.1.0\\res\\values-h480dp-land-v13\\values-h480dp-land-v13.xml",

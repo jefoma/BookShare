@@ -170,11 +170,11 @@ class Catalogo : AppCompatActivity(), View.OnClickListener {
                 }
             }
             R.id.btnLupa -> {
-                Log.d("HOLA", "kjabsdkjasbn")
                 listTitulos.clear()
                 listIDLibros.clear()
                 listPropietarios.clear()
-                val usersRef = database.collection("libros").whereEqualTo("Titulo", nombreDelLibroEditText!!.text.toString())
+                //val usersRef1 = database.collection("libros")
+                val usersRef = database.collection("libros").whereEqualTo("Titulo",  nombreDelLibroEditText!!.text.toString())
                 usersRef.get().addOnSuccessListener { document ->
                     if (document != null) {
                         for (doc in document) {
@@ -196,7 +196,8 @@ class Catalogo : AppCompatActivity(), View.OnClickListener {
 
                                 var user = FirebaseAuth.getInstance().currentUser
                                 var email = user?.email!!.toString()
-
+                                //Linea magica
+                                adapter.notifyDataSetChanged()
                                 if (email.equals(listPropietarios.get(position))) {
                                     val intent = Intent(this, EditarLibro::class.java)
                                     intent.putExtras(bundle)
