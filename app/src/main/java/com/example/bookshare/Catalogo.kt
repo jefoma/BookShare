@@ -16,6 +16,7 @@ class Catalogo : AppCompatActivity(), View.OnClickListener {
     val listTitulos: MutableList<String> = ArrayList()
     val listPropietarios: MutableList<String> = ArrayList()
     val listIDLibros: MutableList<String> = ArrayList()
+    val listBusqueda: MutableList<String> = ArrayList()
     private var btnAgregaLibroCatalogo: ImageView? = null
     private var imagenBook: ImageView? = null
     private var imagenPerfil: ImageView? = null
@@ -64,30 +65,7 @@ class Catalogo : AppCompatActivity(), View.OnClickListener {
                     listIDLibros.add(id)
                     var nombrePropietario = doc["Propietario"].toString()
                     listPropietarios.add(nombrePropietario)
-                    val adapter: ArrayAdapter<String> = ArrayAdapter(
-                            this,
-                            android.R.layout.simple_dropdown_item_1line, listTitulos
-                    )
-                    listView.adapter = adapter
-                    listView.setOnItemClickListener { parent, view, position, id ->
-                        val element = adapter.getItem(position) // The item that was clicked
-                        val bundle = Bundle()
-                        bundle.putString("Key", listIDLibros.get(position))
-
-                        var user = FirebaseAuth.getInstance().currentUser
-                        var email = user?.email!!.toString()
-
-                        if (email.equals(listPropietarios.get(position))) {
-                            val intent = Intent(this, EditarLibro::class.java)
-                            intent.putExtras(bundle)
-                            startActivity(intent)
-                        } else {
-                            val intent = Intent(this, PerfilLibro::class.java)
-                            intent.putExtras(bundle)
-                            startActivity(intent)
-                        }
-
-                    }
+                    adapter()
                 }
             } else {
                 Log.d("Error", "No Existe")
@@ -95,6 +73,33 @@ class Catalogo : AppCompatActivity(), View.OnClickListener {
             }
         }
 
+
+    }
+    fun adapter(){
+        val adapter: ArrayAdapter<String> = ArrayAdapter(
+                this,
+                android.R.layout.simple_dropdown_item_1line, listTitulos
+        )
+        listView.adapter = adapter
+        listView.setOnItemClickListener { parent, view, position, id ->
+            val element = adapter.getItem(position) // The item that was clicked
+            val bundle = Bundle()
+            bundle.putString("Key", listIDLibros.get(position))
+
+            var user = FirebaseAuth.getInstance().currentUser
+            var email = user?.email!!.toString()
+
+            if (email.equals(listPropietarios.get(position))) {
+                val intent = Intent(this, EditarLibro::class.java)
+                intent.putExtras(bundle)
+                startActivity(intent)
+            } else {
+                val intent = Intent(this, PerfilLibro::class.java)
+                intent.putExtras(bundle)
+                startActivity(intent)
+            }
+
+        }
     }
 
     override fun onClick(v: View?) {
@@ -138,42 +143,55 @@ class Catalogo : AppCompatActivity(), View.OnClickListener {
                             listIDLibros.add(id)
                             var nombrePropietario = doc["Propietario"].toString()
                             listPropietarios.add(nombrePropietario)
-                            val adapter: ArrayAdapter<String> = ArrayAdapter(
-                                    this,
-                                    android.R.layout.simple_dropdown_item_1line, listTitulos
-                            )
-                            listView.adapter = adapter
-                            listView.setOnItemClickListener { parent, view, position, id ->
-                                val element = adapter.getItem(position) // The item that was clicked
-                                val bundle = Bundle()
-                                bundle.putString("Key", listIDLibros.get(position))
-
-                                var user = FirebaseAuth.getInstance().currentUser
-                                var email = user?.email!!.toString()
-
-                                if (email.equals(listPropietarios.get(position))) {
-                                    val intent = Intent(this, EditarLibro::class.java)
-                                    intent.putExtras(bundle)
-                                    startActivity(intent)
-                                } else {
-                                    val intent = Intent(this, PerfilLibro::class.java)
-                                    intent.putExtras(bundle)
-                                    startActivity(intent)
-                                }
-
-                            }
+                            adapter()
                         }
                     } else {
                         Log.d("Error", "No Existe")
 
                     }
                 }
+
             }
             R.id.btnLupa -> {
+                /*listBusqueda.clear()
+                listIDLibros.clear()
+
+                val busqueda = nombreDelLibroEditText!!.text.toString()
+                for (i in listTitulos){
+                    if(i.contains(busqueda)){
+                        listBusqueda.add(i)
+                    }
+                }*/
+
+                /*val adapter: ArrayAdapter<String> = ArrayAdapter(
+                        this,
+                        android.R.layout.simple_dropdown_item_1line, listTitulos
+                )
+                listView.adapter = adapter
+                listView.setOnItemClickListener { parent, view, position, id ->
+                    val element = adapter.getItem(position) // The item that was clicked
+                    val bundle = Bundle()
+                    bundle.putString("Key", listIDLibros.get(position))
+
+                    var user = FirebaseAuth.getInstance().currentUser
+                    var email = user?.email!!.toString()
+                    //Linea magica
+                    adapter.notifyDataSetChanged()
+                    if (email.equals(listPropietarios.get(position))) {
+                        val intent = Intent(this, EditarLibro::class.java)
+                        intent.putExtras(bundle)
+                        startActivity(intent)
+                    } else {
+                        val intent = Intent(this, PerfilLibro::class.java)
+                        intent.putExtras(bundle)
+                        startActivity(intent)
+                    }
+                }*/
+
                 listTitulos.clear()
                 listIDLibros.clear()
                 listPropietarios.clear()
-                //val usersRef1 = database.collection("libros")
+
                 val usersRef = database.collection("libros").whereEqualTo("Titulo",  nombreDelLibroEditText!!.text.toString())
                 usersRef.get().addOnSuccessListener { document ->
                     if (document != null) {
@@ -184,36 +202,13 @@ class Catalogo : AppCompatActivity(), View.OnClickListener {
                             listIDLibros.add(id)
                             var nombrePropietario = doc["Propietario"].toString()
                             listPropietarios.add(nombrePropietario)
-                            val adapter: ArrayAdapter<String> = ArrayAdapter(
-                                    this,
-                                    android.R.layout.simple_dropdown_item_1line, listTitulos
-                            )
-                            listView.adapter = adapter
-                            listView.setOnItemClickListener { parent, view, position, id ->
-                                val element = adapter.getItem(position) // The item that was clicked
-                                val bundle = Bundle()
-                                bundle.putString("Key", listIDLibros.get(position))
-
-                                var user = FirebaseAuth.getInstance().currentUser
-                                var email = user?.email!!.toString()
-                                //Linea magica
-                                adapter.notifyDataSetChanged()
-                                if (email.equals(listPropietarios.get(position))) {
-                                    val intent = Intent(this, EditarLibro::class.java)
-                                    intent.putExtras(bundle)
-                                    startActivity(intent)
-                                } else {
-                                    val intent = Intent(this, PerfilLibro::class.java)
-                                    intent.putExtras(bundle)
-                                    startActivity(intent)
-                                }
-
-                            }
+                            adapter()
                         }
                     } else {
                         Log.d("Error", "No Existe")
 
                     }
+
                 }
             }
         }
