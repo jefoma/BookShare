@@ -23,7 +23,6 @@ class Perfil : AppCompatActivity(), View.OnClickListener {
     private var database = FirebaseFirestore.getInstance()
     private var imagenBook: ImageView? = null
     private var imagenPerfil: ImageView? = null
-    var count: TextView? = null
     private var imagenChats: ImageView? = null
     private var imagenCerrarSession: ImageView? = null
 
