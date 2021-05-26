@@ -1524,6 +1524,7 @@ id botonEnterChat
 id bottom
 id btnAgregaLibro
 id btnAgregaLibroCatalogo
+id btnBorrarLibro
 id btnEditarLibro
 id btnLupa
 id btnMisLibros
@@ -1985,6 +1986,7 @@ string apellidos
 string app_name
 string appbar_scrolling_view_behavior
 string autor
+string borrarLibro
 string bottom_sheet_behavior
 string character_counter_content_description
 string character_counter_overflowed_content_description

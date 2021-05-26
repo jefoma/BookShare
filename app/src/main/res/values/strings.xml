@@ -29,5 +29,6 @@
     <string name="isbn">ISBN</string>
     <string name="agregarLibro">Agregar Libro</string>
     <string name="editarLibro">Editar Libro</string>
+    <string name="borrarLibro">Borrar libro</string>
 
 </resources>

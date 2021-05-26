@@ -43,6 +43,7 @@
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.297" />
 
+
                 <ImageView
                     android:id="@+id/subir_imagen"
                     android:layout_width="101dp"
@@ -295,19 +296,35 @@
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.85" />
 
-                <Button
-                    android:id="@+id/btnEditarLibro"
-                    android:layout_width="wrap_content"
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="start"
-                    android:layout_marginTop="28dp"
-                    android:backgroundTint="@color/ColorApp"
-                    android:enabled="true"
-                    android:text="@string/editarLibro"
-                    android:textColor="@color/white" />
+                    android:weightSum="2">
+                    <Button
+                        android:id="@+id/btnEditarLibro"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_marginTop="28dp"
+                        android:backgroundTint="@color/ColorApp"
+                        android:enabled="true"
+                        android:text="@string/editarLibro"
+                        android:textColor="@color/white" />
+
+                    <Button
+                        android:id="@+id/btnBorrarLibro"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_marginTop="28dp"
+                        android:backgroundTint="@color/ColorApp"
+                        android:enabled="true"
+                        android:text="@string/borrarLibro"
+                        android:textColor="@color/white" />
+                </LinearLayout>
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

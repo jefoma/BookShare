@@ -21,6 +21,7 @@ class EditarLibro: AppCompatActivity() , View.OnClickListener{
     private var ciudadEditText: TextView? = null
     private var CPEditText: TextView? = null
     private var btnEditarLibro: Button? = null
+    private var btnBorrarLibro: Button? = null
     //Creamos una variable de tipo String para guardar el ID del libro que llega al bundle de la activity
     var IDLibro: String = ""
     //Declaramos la variable que usaremos para realizar la conexiona la BBDD
@@ -42,8 +43,10 @@ class EditarLibro: AppCompatActivity() , View.OnClickListener{
         ciudadEditText = findViewById<TextView>(R.id.ciudadEditText)
         CPEditText = findViewById<TextView>(R.id.CPEditText)
         btnEditarLibro = findViewById<Button>(R.id.btnEditarLibro)
+        btnBorrarLibro = findViewById<Button>(R.id.btnBorrarLibro)
         //Asignamos el listener al Button que hara el update del libro a la BBDD
         btnEditarLibro!!.setOnClickListener(this)
+        btnBorrarLibro!!.setOnClickListener(this)
         //Llamamos a la funcion cargaDatosBD() para que rellene los datos actuales del libro
         cargaDatosBD()
 
@@ -68,6 +71,12 @@ class EditarLibro: AppCompatActivity() , View.OnClickListener{
                 cargaDatosBD()
                 ////Creamos un aviso de que el libro se edito correctamente en la BBDD
                 Toast.makeText(this, "Libro actualizado", Toast.LENGTH_SHORT).show()
+            }
+            R.id.btnBorrarLibro -> {
+                //Indicamos a la BBDD que registro queremos borrar y en la misma lienea lo borramos .delete()
+                val libroRef = database.collection("libros").document(IDLibro).delete()
+                ////Creamos un aviso de que el libro se edito correctamente en la BBDD
+                Toast.makeText(this, "Libro borrado", Toast.LENGTH_SHORT).show()
                 //Volvemos a la activity de Catalogo
                 val intent = Intent(this, Catalogo::class.java)
                 startActivity(intent)
