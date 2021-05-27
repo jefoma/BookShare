@@ -44,6 +44,7 @@ class Registro : AppCompatActivity(), View.OnClickListener {
                             contraseña!!.text.toString()).addOnCompleteListener {
                         //Si se crea la cuenta añadimos el nuevo usuario a la BBD
                         if (it.isSuccessful) {
+                            //Añadimos el usuario a la base de datos
                             db.collection("users").document(correoElectronico!!.text.toString()).set(
                                     hashMapOf("username" to nombreDeUsuario!!.text.toString())
                             )

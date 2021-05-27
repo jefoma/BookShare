@@ -30,8 +30,6 @@ class MainActivity : AppCompatActivity(),  View.OnClickListener {
         //Asignaos listeners a los items que lo requieran
         login!!.setOnClickListener(this)
         sing_up!!.setOnClickListener(this)
-        correoElectronico!!.setOnClickListener(this)
-        contraseña!!.setOnClickListener(this)
     }
     //Creamos la función donde añadiremos las acciones que deben realizar los items con listeners
     override fun onClick(v: View?) {
@@ -41,11 +39,11 @@ class MainActivity : AppCompatActivity(),  View.OnClickListener {
                 //Si el correo electronico y la contrasena que escribio el usuario en los EditText
                 // coinciden con algun usuario registrado nos conectamos a la BBDD
                 if (correoElectronico!!.text.isNotEmpty() && contraseña?.text!!.isNotEmpty()){
+                    //Aqui relizamos la edición de la BBDD a traves de las utilidades de Firebase
                     FirebaseAuth.getInstance().signInWithEmailAndPassword(correoElectronico!!.text.toString(),
                             contraseña!!.text.toString()).addOnCompleteListener{
                         if (it.isSuccessful){
-                            //Si los datos son correctos llamamos la activity Perfil
-                            val user = FirebaseAuth.getInstance().currentUser
+                            //Si los datos son correctos llamamos la activity Catálogo
                             val intent: Intent = Intent(this, Catalogo::class.java)
                             startActivity(intent)
                         }else{

@@ -13,6 +13,7 @@ class Catalogo : AppCompatActivity(), View.OnClickListener {
 
     //Declaramos la listview que necesitaremos para mostrar los libros y la conexion a la BBDD de firebase
     private lateinit var listView: ListView
+    //Declaramos la variable para realizar la conexion a la BBDD
     private var database = FirebaseFirestore.getInstance()
 
     //Declaramos las listas que necesitaremos para mostrar los libros en la ListView
@@ -96,6 +97,7 @@ class Catalogo : AppCompatActivity(), View.OnClickListener {
     //Esta función nos permite listar libros a partir d dos listas una de Titulos y una de IDs
     fun adapter( listaTitulos: MutableList<String>, listaIDs: MutableList<String>){
         //Creamos el adapter, que le pasaremos a la ListView, a partir de la lista de titulos( lo que queremos que se muestre en la ListView)
+
         val adapter: ArrayAdapter<String> = ArrayAdapter(
                 this,
                 android.R.layout.simple_dropdown_item_1line, listaTitulos
@@ -199,8 +201,6 @@ class Catalogo : AppCompatActivity(), View.OnClickListener {
                 //Limpiamos la listas que usamos para las busquedas
                 listBusqueda.clear()
                 listBusquedaIDLibros.clear()
-                //Llamamos a la función cargaDatosBD() para que nos reinicie las listas con todos los libros de la BBDD
-                cargaDatosBD()
                 //Guardamos lo que ha escrito el usuario en el EditText en una variable
                 val busqueda = nombreDelLibroEditText!!.text.toString()
                 //Recorremos la lista que despues del cargaDatosBD() contiene todos los libros y añadimos a las listas
